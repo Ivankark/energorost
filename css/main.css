@@ -199,3 +199,6 @@ body {
 =======
 /*end CSS Carousel*/
 >>>>>>> 565e726aeda2bd8393a2524769ec991f58870f3e
+.carousel-control {
+  color:#fff;
+}
