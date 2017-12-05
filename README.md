@@ -1,2 +1,0 @@
-# energorost
-css-template
