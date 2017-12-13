@@ -92,6 +92,15 @@ lg - >= 1200px
 .main-slide .carousel-inner img {
 	min-height:200px;
 }
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+	height:auto;
+	width:auto;
+}
+.round {
+  border-radius: 50%;
+  padding:10px;
+  background: #258dc8;
+}
 /*end Carousel*/
 
 /*Navbar*/
