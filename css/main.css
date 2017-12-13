@@ -192,26 +192,24 @@ html {
   min-height: 100%;
 }
 body {
-  margin-bottom: 85px;
+  margin-bottom: 80px;
 }
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 85px;
+  height: 60px;
   background-color: rgba(229, 194, 52, 0.1);
   border-top:1px solid rgba(229, 194, 52, 0.5);
 }
 .footer-container {
-  display:flex;
-  align-items:left;
-  flex-direction:column-reverse;
   max-width: 680px;
   margin: 0 auto;
   padding:15px 50px 0 50px;
+  text-align: center;
 }
-.footer-container a {
-  display: inline-block;
+.copyright {
+  display: block;
 }
 /*end footer */
 
@@ -238,8 +236,11 @@ footer {
 	border:1px solid rgba(229, 194, 52, 0.5);
 	outline:17px solid rgba(229, 194, 52, 0.1);
 }
-.copyright {
-  display: block;
-  padding:5px 0;
-  text-align: center;
+
+
+
+.header_news {
+  font-size: 2em;
+  display: inline-block;
+  border-bottom: 4px solid rgba(103, 201, 18, 1);
 }
