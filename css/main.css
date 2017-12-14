@@ -220,7 +220,8 @@ footer {
 	.vtext {
 		font-family: "Blogger Sans";
 		font-size:1.8em;
-		padding:15px 0;
+		line-height: 1;
+		padding:25px 0 0 0;
 	}
 @media (min-width: 768px) {
 	.line-flex {
