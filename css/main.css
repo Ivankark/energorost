@@ -92,14 +92,17 @@ lg - >= 1200px
 /*.main-slide .carousel-inner img {
 	min-height:200px;
 }*/
-.bkg1, .bkg2, .bkg3 {
+/*.bkg1, .bkg2, .bkg3 {
     background-size: cover;
     height: 445px;
 }
 .bkg1 {background: url("../img/slide1_1920-445.jpg") no-repeat center top;}
 .bkg2 {background: url("../img/slide2_1920-445.jpg") no-repeat center top;}
 .bkg3 {background: url("../img/slide3_1920-445.jpg") no-repeat center top;}
-
+*/
+.item {
+	height:445px;
+}
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
 	height:auto;
 	width:auto;

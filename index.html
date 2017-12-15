@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-main">
+<nav class="navbar navbar-default navbar-main">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -75,21 +75,21 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item bkg1 active">
-      <!--<img src="img/slide1_1920-445.jpg" alt="">-->
+       <img src="img/slide1_1920-445.jpg" alt=""> 
       <div class="carousel-caption main-slide__slide-caption">
         <h4>Низковольтное оборудование</h4>
         <p>Автоматические выключатели, устройства защитного отключения...</p>
       </div>
     </div>
     <div class="item bkg2">
-      <!--<img src="img/slide2_1920-445.jpg" alt="">-->
+       <img src="img/slide2_1920-445.jpg" alt=""> 
       <div class="carousel-caption main-slide__slide-caption">
         <h4>Кабели и провода</h4>
         <p>Силовые, монтажные, контрольные, судовые, термостойкие...</p>
       </div>
     </div>
     <div class="item bkg3">
-      <!--<img src="img/slide3_1920-445.jpg" alt="">-->
+       <img src="img/slide3_1920-445.jpg" alt=""> 
       <div class="carousel-caption main-slide__slide-caption">
         <h4>Электромонтажные изделия для кабелей и ЛЭП</h4>
         <p>Изоляторы, кронштейны, муфты, зажимы, лотки, кабель-канал, кабельная арматура...</p>
@@ -155,5 +155,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script> 
+			var imgs = $('.item img');
+		imgs.each(function(){
+		  var item = $(this).closest('.item');
+		  item.css({
+			'background-image': 'url(' + $(this).attr('src') + ')', 
+			'background-position': 'center',            
+			'-webkit-background-size': 'cover',
+			'background-size': 'cover', 
+		  });
+		  $(this).hide();
+		});
+	</script>
   </body>
 </html>
